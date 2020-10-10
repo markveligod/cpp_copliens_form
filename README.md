@@ -7,7 +7,7 @@ This is a small helper for quickly creating classes according to the **Coplienâ€
   
 ## Installation
 Clone a repository: `git clone https://github.com/markveligod/cpp_copliens_form.git class`  
-Moving to /bin: `cd class && sudo mv ./ccf /bin`  
+Moving to /bin: `cd class && sudo mv ./ccf /bin && cd ..`  
 Restart terminal  
 Done!  
   
