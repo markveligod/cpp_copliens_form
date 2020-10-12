@@ -73,6 +73,8 @@ int create_class(std::string name_class)
         return (ERR_OPEN);
     out_file_cpp << set_cpp(name_class);
     out_file_hpp << set_hpp(name_class);
+    out_file_cpp.close();
+    out_file_hpp.close();
     std::cout << GREEN << "[Success]: " << RESET << "the file " << YELLOW << name_class + ".cpp" << " " << name_class + ".hpp" << RESET << " is created\n";
     return (0);
 }
